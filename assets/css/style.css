@@ -163,3 +163,6 @@ p{
     text-decoration: none;
     padding: 0 3px;
 }
+.offered a:hover{
+  text-decoration: underline;
+}
