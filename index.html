@@ -7,11 +7,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
 
   <!-- Bootstrap + CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-  </script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="icon" href="assets/images/google_icon.png" />
   <title>Google</title>
@@ -45,7 +44,7 @@
             justify-content-center
             align-items-center
           ">
-        <img src="assets/images/search.png" class="ml-3" id="account-img" alt="Account" />
+        <img src="assets/images/google-search.jpg" class="ml-3" id="account-img" alt="Account" />
         <input type="text" class="m-0 pl-3" />
         <img src="assets/images/voice.png" class="mr-3" id="account-img" alt="Account" />
       </div>
@@ -73,7 +72,7 @@
       <div class="first-row-footer">
         <p>Romania</p>
       </div>
-      <div class="d-flex justify-content-between last-row">
+      <div class="d-flex justify-content-between last-row align-items-center">
         <div class="left-column">
           <a href="https://about.google/?utm_source=google-RO&utm_medium=referral&utm_campaign=hp-footer&fg=1">About</a>
           <a
@@ -85,15 +84,24 @@
         <div class="right-column">
           <a href="https://policies.google.com/privacy?hl=en-RO&fg=1">Privacy</a>
           <a href="https://policies.google.com/terms?hl=en-RO&fg=1">Terms</a>
-          <a href="#">Settings</a>
+          <div class="dropup">
+            <a href="#" data-toggle="dropdown">
+              Settings
+            </a>
+            <div class="dropdown-menu mr-xl-3 dropdown-custom">
+              <a class="dropdown-item" href="#">Search settings</a>
+              <a class="dropdown-item" href="#">Advanced settings</a>
+              <a class="dropdown-item" href="#">Your data in search</a>
+              <a class="dropdown-item" href="#">Search history</a>
+              <a class="dropdown-item" href="#">Search help</a>
+              <a class="dropdown-item" href="#">Search feedback</a>
+            </div>
+          </div>
         </div>
       </div>
     </div>
   </footer>
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-  integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-  integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
 
 </html>

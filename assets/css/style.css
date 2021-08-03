@@ -77,6 +77,10 @@ p{
 .last-row{
     padding:12px 20px;
 }
+.right-column{
+  display: -webkit-inline-box;
+}
+
 
 /* MAIN CONTENT */
 
@@ -84,7 +88,7 @@ p{
     margin-top: 101px;
 }
 .search{
-    padding: 20px;
+    padding: 25px;
 }
 .search-section:hover{
     background-color: #fff;
@@ -166,3 +170,12 @@ p{
 .offered a:hover{
   text-decoration: underline;
 }
+.dropdown-custom{
+  border-color: black;
+  border-radius: 0;
+}
+.dropdown-item.active, .dropdown-item:active {
+  background-color:#fff;
+  color: rgba(0, 0, 0, 0.54);
+}
+
