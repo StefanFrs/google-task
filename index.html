@@ -46,7 +46,7 @@
           ">
         <img src="assets/images/google-search.jpg" class="ml-3" id="search-logo" alt="Account" />
         <input type="text" class="m-0 pl-3" />
-        <img src="assets/images/voice.png" class="mr-3" id="account-img" alt="Account" />
+        <img src="assets/images/voice.png" class="mr-3" id="account-img" alt="Account" data-toggle="tooltip" data-placement="bottom" title="Search by voice"/>
       </div>
       <div class="
             mt-4
@@ -107,6 +107,9 @@
   $(document).ready(function(){
       $('[data-toggle="popover"]').popover();   
   });
+  $(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+});
   </script>
 
 </html>
